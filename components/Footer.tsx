@@ -18,6 +18,9 @@ export default function Footer() {
           <p className="font-inter text-white/70 text-sm italic">
             Your Perfect Fit, Delivered to Your Door.
           </p>
+          <p className="font-urdu text-gold/80 text-base leading-loose" dir="rtl" lang="ur">
+            آپ کی پرفیکٹ فٹنگ، آپ کے دروازے تک
+          </p>
         </div>
 
         <div className="flex flex-col items-center sm:items-end gap-2">

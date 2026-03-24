@@ -23,9 +23,14 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="bg-bg py-20 px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="font-playfair text-green text-3xl md:text-4xl font-semibold text-center mb-14">
-          What Our Clients Say
-        </h2>
+        <div className="text-center mb-14">
+          <h2 className="font-playfair text-green text-3xl md:text-4xl font-semibold">
+            What Our Clients Say
+          </h2>
+          <p className="font-urdu text-gold text-2xl md:text-3xl leading-loose mt-1" dir="rtl" lang="ur">
+            ہمارے گاہکوں کی رائے
+          </p>
+        </div>
 
         {/* Mobile: horizontal scroll with snap. Desktop: 3-column grid */}
         <div

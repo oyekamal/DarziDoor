@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Playfair_Display, Inter, Noto_Nastaliq_Urdu } from "next/font/google";
 import Script from "next/script";
 import { localBusinessSchema } from "@/lib/schema";
 import "./globals.css";
@@ -14,6 +14,13 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
+});
+
+const urdu = Noto_Nastaliq_Urdu({
+  subsets: ["arabic"],
+  variable: "--font-urdu",
+  display: "swap",
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -51,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-PK" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="en-PK" className={`${playfair.variable} ${inter.variable} ${urdu.variable}`}>
       <head>
         <script
           type="application/ld+json"

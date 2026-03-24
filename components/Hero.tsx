@@ -20,14 +20,20 @@ export default function Hero() {
       <div className="absolute inset-0 bg-green/60" aria-hidden="true" />
 
       <div className="relative z-10 text-center max-w-3xl mx-auto">
-        <h1 className="font-playfair text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+        <h1 className="font-playfair text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-2">
           Custom Shalwar Kameez —<br className="hidden md:block" />
           Stitched at Home, Delivered to Your Door
         </h1>
+        <p className="font-urdu text-gold text-2xl md:text-3xl leading-loose mb-6" dir="rtl" lang="ur">
+          کسٹم شلوار قمیض — گھر پر سلائی، آپ کے دروازے تک
+        </p>
 
-        <p className="text-white/80 text-lg md:text-xl mb-10 font-inter">
+        <p className="text-white/80 text-lg md:text-xl mb-2 font-inter">
           Serving Islamabad &amp; Rawalpindi &nbsp;|&nbsp; Men &amp; Women
-          &nbsp;|&nbsp; Free Home Measurement
+          &nbsp;|&nbsp; Rs. 200 Measurement &amp; Delivery
+        </p>
+        <p className="font-urdu text-white/60 text-lg leading-loose mb-10" dir="rtl" lang="ur">
+          اسلام آباد و راولپنڈی &nbsp;|&nbsp; مرد و خواتین &nbsp;|&nbsp; ۲۰۰ روپے پیمائش و ڈیلیوری
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -37,7 +43,8 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="bg-gold text-white font-medium px-8 py-4 rounded-full text-base min-h-[52px] flex items-center justify-center hover:opacity-90 transition-opacity"
           >
-            Book on WhatsApp
+            <span>Book on WhatsApp</span>
+            <span className="font-urdu mr-2 text-sm leading-none" dir="rtl" lang="ur"> — واٹس ایپ پر بک کریں</span>
           </a>
 
           <a

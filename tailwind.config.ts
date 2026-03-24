@@ -23,6 +23,7 @@ const config: Config = {
       fontFamily: {
         playfair: ["var(--font-playfair)", "Georgia", "serif"],
         inter: ["var(--font-inter)", "system-ui", "sans-serif"],
+        urdu: ["var(--font-urdu)", "serif"],
       },
       minHeight: {
         svh: "100svh",

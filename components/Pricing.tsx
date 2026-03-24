@@ -1,14 +1,15 @@
 import { WA_LINK } from "@/lib/constants";
 
 const prices = [
-  { service: "Gents Shalwar Kameez", price: "Rs. 1,200" },
-  { service: "Ladies Shalwar Kameez", price: "Rs. 1,500" },
-  { service: "Kurta (simple)", price: "Rs. 800" },
-  { service: "Silk / Party Suit", price: "Rs. 2,000" },
-  { service: "Embroidered Suit", price: "Rs. 2,500+" },
-  { service: "Sherwani", price: "Rs. 3,500+" },
-  { service: "Alteration (simple)", price: "Rs. 300" },
-  { service: "Gharara / Sharara", price: "Rs. 2,000+" },
+  { service: "Home Measurement & Delivery", price: "Rs. 200" },
+  { service: "Gents Shalwar Kameez", price: "Rs. 2,200" },
+  { service: "Ladies Shalwar Kameez", price: "Rs. 2,500" },
+  { service: "Kurta (simple)", price: "Rs. 1,800" },
+  { service: "Silk / Party Suit", price: "Rs. 3,000" },
+  { service: "Embroidered Suit", price: "Rs. 3,500+" },
+  { service: "Sherwani", price: "Rs. 4,500+" },
+  { service: "Alteration (simple)", price: "Rs. 1,300" },
+  { service: "Gharara / Sharara", price: "Rs. 3,000+" },
 ];
 
 export default function Pricing() {
