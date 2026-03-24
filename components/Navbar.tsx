@@ -19,14 +19,22 @@ export default function Navbar() {
         />
       </Link>
 
-      <a
-        href={WA_LINK}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-gold text-white text-sm font-medium px-5 py-3 rounded-full min-h-[48px] flex items-center hover:opacity-90 transition-opacity"
-      >
-        Book on WhatsApp
-      </a>
+      <div className="flex items-center gap-4">
+        <Link
+          href="/blog"
+          className="text-white/80 text-sm font-inter hover:text-gold transition-colors hidden sm:block"
+        >
+          Blog
+        </Link>
+        <a
+          href={WA_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gold text-white text-sm font-medium px-5 py-3 rounded-full min-h-[48px] flex items-center hover:opacity-90 transition-opacity"
+        >
+          Book on WhatsApp
+        </a>
+      </div>
     </nav>
   );
 }
