@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 const services = [
   {
-    icon: "✂️",
+    image: "/service-mens.png",
     name: "Men's Shalwar Kameez",
     description:
       "Formal and casual cuts for men — perfectly tailored to your measurements.",
@@ -8,7 +10,7 @@ const services = [
     waMessage: "Hi%2C%20I%27d%20like%20to%20book%20Men%27s%20Shalwar%20Kameez%20stitching",
   },
   {
-    icon: "🪡",
+    image: "/service-womens.png",
     name: "Women's Shalwar Kameez",
     description:
       "Lawn, khaddar, silk & party wear for women — stitched exactly as you like.",
@@ -16,7 +18,7 @@ const services = [
     waMessage: "Hi%2C%20I%27d%20like%20to%20book%20Women%27s%20Shalwar%20Kameez%20stitching",
   },
   {
-    icon: "⭐",
+    image: "/service-wedding.png",
     name: "Wedding Wear",
     description:
       "Sherwani, bridal wear, mehndi outfits & matching family suits — book early.",
@@ -24,7 +26,7 @@ const services = [
     waMessage: "Hi%2C%20I%27d%20like%20to%20enquire%20about%20Wedding%20Wear%20stitching",
   },
   {
-    icon: "📐",
+    image: "/service-alterations.png",
     name: "Alterations",
     description:
       "Quick fixes, size adjustments & repairs — in & out in 2–3 days.",
@@ -45,11 +47,17 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.name}
-              className="bg-bg border-t-4 border-gold rounded-xl p-7 flex flex-col gap-4"
+              className="bg-bg border-t-4 border-gold rounded-xl overflow-hidden flex flex-col"
             >
-              <span className="text-3xl" aria-hidden="true">
-                {service.icon}
-              </span>
+              <div className="relative h-48 w-full">
+                <Image
+                  src={service.image}
+                  alt={service.name}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-7 flex flex-col gap-4 flex-1">
               <div>
                 <h3 className="font-playfair text-green text-xl font-semibold mb-2">
                   {service.name}
@@ -69,6 +77,7 @@ export default function Services() {
               >
                 Book This
               </a>
+              </div>
             </div>
           ))}
         </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { WA_LINK } from "@/lib/constants";
 
 export default function Hero() {
@@ -6,26 +7,17 @@ export default function Hero() {
       id="hero"
       className="relative bg-green flex items-center justify-center min-h-[100svh] px-6 py-20 overflow-hidden"
     >
-      {/* Subtle fabric texture pattern overlay */}
-      <div
-        className="absolute inset-0 opacity-5"
-        style={{
-          backgroundImage: `repeating-linear-gradient(
-            45deg,
-            #C9A84C 0px,
-            #C9A84C 1px,
-            transparent 1px,
-            transparent 12px
-          ), repeating-linear-gradient(
-            -45deg,
-            #C9A84C 0px,
-            #C9A84C 1px,
-            transparent 1px,
-            transparent 12px
-          )`,
-        }}
+      {/* Hero background image */}
+      <Image
+        src="/hero-bg.png"
+        alt=""
+        fill
+        priority
+        className="object-cover opacity-30"
         aria-hidden="true"
       />
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-green/60" aria-hidden="true" />
 
       <div className="relative z-10 text-center max-w-3xl mx-auto">
         <h1 className="font-playfair text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
