@@ -37,6 +37,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "DarziDoor — Custom Tailoring at Your Doorstep",
+    description: "Home measurement, custom stitching, doorstep delivery. Islamabad & Rawalpindi.",
+    images: ["https://darzidoor.com/darzi-door.png"],
+  },
 };
 
 export default function RootLayout({
@@ -45,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="en-PK" className={`${playfair.variable} ${inter.variable}`}>
       <head>
         <script
           type="application/ld+json"
