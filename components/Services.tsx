@@ -1,6 +1,3 @@
-const WA_LINK =
-  "https://wa.me/923360506129?text=Hi%2C%20I%27d%20like%20to%20book%20a%20measurement";
-
 const services = [
   {
     icon: "✂️",
@@ -8,6 +5,7 @@ const services = [
     description:
       "Formal and casual cuts for men — perfectly tailored to your measurements.",
     price: "from Rs. 1,200",
+    waMessage: "Hi%2C%20I%27d%20like%20to%20book%20Men%27s%20Shalwar%20Kameez%20stitching",
   },
   {
     icon: "🪡",
@@ -15,6 +13,7 @@ const services = [
     description:
       "Lawn, khaddar, silk & party wear for women — stitched exactly as you like.",
     price: "from Rs. 1,500",
+    waMessage: "Hi%2C%20I%27d%20like%20to%20book%20Women%27s%20Shalwar%20Kameez%20stitching",
   },
   {
     icon: "⭐",
@@ -22,6 +21,7 @@ const services = [
     description:
       "Sherwani, bridal wear, mehndi outfits & matching family suits — book early.",
     price: "from Rs. 3,500",
+    waMessage: "Hi%2C%20I%27d%20like%20to%20enquire%20about%20Wedding%20Wear%20stitching",
   },
   {
     icon: "📐",
@@ -29,6 +29,7 @@ const services = [
     description:
       "Quick fixes, size adjustments & repairs — in & out in 2–3 days.",
     price: "from Rs. 300",
+    waMessage: "Hi%2C%20I%27d%20like%20to%20book%20an%20Alteration",
   },
 ];
 
@@ -61,10 +62,10 @@ export default function Services() {
                 </p>
               </div>
               <a
-                href={WA_LINK}
+                href={`https://wa.me/923360506129?text=${service.waMessage}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-auto inline-flex items-center justify-center bg-green text-white font-inter font-medium text-sm px-5 py-3 rounded-full min-h-[44px] hover:opacity-90 transition-opacity w-fit"
+                className="mt-auto inline-flex items-center justify-center bg-green text-white font-inter font-medium text-sm px-5 py-3 rounded-full min-h-[48px] hover:opacity-90 transition-opacity w-fit"
               >
                 Book This
               </a>
