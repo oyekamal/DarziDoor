@@ -1,9 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-const WA_LINK =
-  "https://wa.me/923360506129?text=Hi%2C%20I%27d%20like%20to%20book%20a%20measurement";
+import { WA_LINK } from "@/lib/constants";
 
 export default function WhatsAppButton() {
   const [visible, setVisible] = useState(false);
