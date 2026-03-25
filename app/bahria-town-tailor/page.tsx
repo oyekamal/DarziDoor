@@ -99,12 +99,12 @@ export default function BahriaTownTailorPage() {
               </h3>
               <div className="grid md:grid-cols-2 gap-4 mb-8">
                 <div className="bg-surface p-6 rounded-lg">
-                  <h4 className="font-playfair text-green font-semibold text-lg mb-2">Men's Shalwar Kameez</h4>
+                  <h4 className="font-playfair text-green font-semibold text-lg mb-2">Men&apos;s Shalwar Kameez</h4>
                   <p className="font-inter text-text-muted text-sm mb-2">Formal and casual cuts, perfectly tailored</p>
                   <p className="font-inter text-gold font-medium">from Rs. 2,200</p>
                 </div>
                 <div className="bg-surface p-6 rounded-lg">
-                  <h4 className="font-playfair text-green font-semibold text-lg mb-2">Women's Shalwar Kameez</h4>
+                  <h4 className="font-playfair text-green font-semibold text-lg mb-2">Women&apos;s Shalwar Kameez</h4>
                   <p className="font-inter text-text-muted text-sm mb-2">Lawn, silk, party wear — your style</p>
                   <p className="font-inter text-gold font-medium">from Rs. 2,500</p>
                 </div>
@@ -127,7 +127,7 @@ export default function BahriaTownTailorPage() {
                 <li><strong>Free Home Measurement:</strong> We come to you anywhere in Bahria Town — just Rs. 200 total visit fee</li>
                 <li><strong>Expert Tailors:</strong> Years of experience in custom stitching</li>
                 <li><strong>Fast Delivery:</strong> 5–7 working days standard, rush orders available</li>
-                <li><strong>One Free Alteration:</strong> If the fit isn't perfect, we fix it at no charge</li>
+                <li><strong>One Free Alteration:</strong> If the fit isn&apos;t perfect, we fix it at no charge</li>
                 <li><strong>Female Tailor Available:</strong> For ladies who prefer female tailors</li>
                 <li><strong>No Advance Payment:</strong> Pay cash on delivery for your first order</li>
               </ul>
@@ -153,7 +153,7 @@ export default function BahriaTownTailorPage() {
                   <p className="font-inter text-text-muted text-sm">No. Our Rs. 200 measurement & delivery fee covers all areas of Bahria Town Islamabad.</p>
                 </div>
                 <div>
-                  <h4 className="font-inter font-semibold text-green mb-2">Can you arrange fabric if I don't have any?</h4>
+                  <h4 className="font-inter font-semibold text-green mb-2">Can you arrange fabric if I don&apos;t have any?</h4>
                   <p className="font-inter text-text-muted text-sm">Yes, we can source quality fabric for you at market rates. Just let us know your requirements.</p>
                 </div>
                 <div>
