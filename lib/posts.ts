@@ -181,6 +181,146 @@ ${WA_CTA}`,
 <p>DarziDoor stitches office-ready shalwar kameez for men and women across Islamabad and Rawalpindi, starting from Rs. 1,200.</p>
 ${WA_CTA}`,
   },
+  {
+    slug: "fast-stitching-rawalpindi-islamabad",
+    title: "Fast Shalwar Kameez Stitching in Rawalpindi & Islamabad",
+    excerpt:
+      "Need your shalwar kameez stitched quickly? Get rush stitching in 2-3 days across Rawalpindi and Islamabad with DarziDoor.",
+    date: "2026-06-02",
+    keyword: "fast shalwar kameez stitching Rawalpindi",
+    content: `<p>Life doesn't always give you the luxury of a 7-day wait for stitching. Whether it's a last-minute event invitation, an Eid emergency, or an unexpected occasion — sometimes you need your shalwar kameez stitched fast.</p>
+<p><strong>DarziDoor's Rush Stitching Service:</strong></p>
+<ul>
+<li>Standard delivery: 5–7 working days</li>
+<li>Rush delivery: 2–3 working days (+Rs. 500)</li>
+<li>Same-day measurement appointments available</li>
+<li>All areas of Islamabad & Rawalpindi covered</li>
+</ul>
+<p><strong>When to Book Rush Stitching:</strong></p>
+<ul>
+<li>Eid is approaching and you haven't ordered yet</li>
+<li>Last-minute wedding invitation</li>
+<li>Office event or formal dinner announced</li>
+<li>Your regular tailor couldn't deliver on time</li>
+<li>You need a backup outfit quickly</li>
+</ul>
+<p><strong>How Rush Stitching Works:</strong> Book your measurement visit as early as possible in the day. Our tailor visits, takes measurements, and we prioritize your order. You'll have your perfectly stitched outfit within 2–3 days — delivered to your door in Saddar, Blue Area, Bahria Town, or anywhere in the twin cities.</p>
+<p>Note: Rush orders work best with simple designs. Complex embroidery or embellishments may need more time.</p>
+${WA_CTA}`,
+  },
+  {
+    slug: "ladies-shalwar-kameez-tailor-rawalpindi",
+    title: "Best Ladies Shalwar Kameez Tailor in Rawalpindi",
+    excerpt:
+      "Looking for a ladies specialist tailor in Rawalpindi? DarziDoor offers female tailor service with home measurement for complete comfort.",
+    date: "2026-06-09",
+    keyword: "ladies shalwar kameez tailor Rawalpindi",
+    content: `<p>Finding a reliable ladies tailor in Rawalpindi who understands modern cuts, offers quality stitching, and respects your privacy — all at once — can be challenging. DarziDoor makes it simple.</p>
+<p><strong>Our Ladies Tailoring Service:</strong></p>
+<ul>
+<li><strong>Female tailor available</strong> for home measurements on request</li>
+<li><strong>All fabric types:</strong> lawn, silk, khaddar, chiffon, organza, cotton</li>
+<li><strong>Modern & traditional cuts:</strong> straight, A-line, angrakha, kurti style, flared</li>
+<li><strong>Party & casual wear:</strong> from everyday lawn suits to embellished party wear</li>
+<li><strong>Custom design consultation:</strong> necklines, sleeves, length, embellishments</li>
+</ul>
+<p><strong>Why Ladies Trust DarziDoor:</strong></p>
+<p>Privacy and comfort are our priority. If you prefer a female tailor for measurements, just mention it when booking. We visit your home at a convenient time — no need to go to a shop or bazaar. Perfect for ladies in Saddar, Bahria Town, DHA, Satellite Town, and all Rawalpindi areas.</p>
+<p>Our tailors are experienced in both traditional Pakistani shalwar kameez and modern designer cuts. Whether you need a simple lawn suit for daily wear or an embroidered outfit for a wedding, we deliver quality stitching every time.</p>
+${WA_CTA}`,
+  },
+  {
+    slug: "custom-designer-shalwar-kameez-islamabad",
+    title: "Custom Designer Shalwar Kameez Stitching in Islamabad",
+    excerpt:
+      "Get bespoke designer shalwar kameez stitched to your exact specifications in Islamabad. Modern cuts, custom embellishments, perfect fit.",
+    date: "2026-06-16",
+    keyword: "designer shalwar kameez stitching Islamabad",
+    content: `<p>Designer shalwar kameez isn't just about expensive fabric — it's about the cut, the details, and the perfect fit. If you've bought beautiful fabric from Liberty or Khaadi and want it stitched into something truly special, DarziDoor's custom designer stitching service is for you.</p>
+<p><strong>What Makes It "Designer"?</strong></p>
+<ul>
+<li><strong>Custom cuts:</strong> Asymmetrical hems, side slits, cape styles, high-low cuts</li>
+<li><strong>Unique necklines:</strong> Boat neck, sweetheart, halter, collar variations</li>
+<li><strong>Sleeve styles:</strong> Bell sleeves, bishop sleeves, cape sleeves, cold shoulder</li>
+<li><strong>Custom embellishments:</strong> Piping, lace work, embroidery placement</li>
+<li><strong>Modern silhouettes:</strong> Straight, A-line, shirt style, kurta fusion</li>
+</ul>
+<p><strong>Popular Designer Requests:</strong></p>
+<ul>
+<li>Party wear with statement sleeves and embroidered panels</li>
+<li>Contemporary office wear with modern collars and cuts</li>
+<li>Fusion kurta-style shalwar kameez</li>
+<li>Two-piece sets with coordinated stitching</li>
+<li>Bridal party outfits with custom design elements</li>
+</ul>
+<p><strong>How It Works:</strong> When our tailor visits for measurements, discuss your design vision. Bring reference photos if you have them — we can replicate cuts and styles. We'll take detailed measurements and notes, then deliver your custom designer shalwar kameez in 7–10 days.</p>
+<p>Serving all Islamabad areas including Blue Area, F-6, F-7, F-8, F-10, F-11, G-6 through G-13, Bahria Town, and DHA.</p>
+${WA_CTA}`,
+  },
+  {
+    slug: "cheap-affordable-tailor-rawalpindi",
+    title: "Affordable Shalwar Kameez Tailor Near Rawalpindi",
+    excerpt:
+      "Quality doesn't have to be expensive. Get cheap, affordable shalwar kameez stitching in Rawalpindi with transparent pricing and no hidden costs.",
+    date: "2026-06-23",
+    keyword: "cheap shalwar kameez tailor near Rawalpindi",
+    content: `<p>Looking for affordable tailoring in Rawalpindi that doesn't compromise on quality? DarziDoor offers competitive prices with transparent pricing — no hidden costs, no surprises.</p>
+<p><strong>Our Affordable Pricing:</strong></p>
+<table>
+<thead><tr><th>Service</th><th>Price</th></tr></thead>
+<tbody>
+<tr><td>Home Measurement & Delivery</td><td>Rs. 200 total</td></tr>
+<tr><td>Gents Simple Shalwar Kameez</td><td>Rs. 2,200</td></tr>
+<tr><td>Ladies Simple Shalwar Kameez</td><td>Rs. 2,500</td></tr>
+<tr><td>Basic Kurta</td><td>Rs. 1,800</td></tr>
+<tr><td>Simple Trouser Alteration</td><td>Rs. 1,300</td></tr>
+</tbody>
+</table>
+<p><strong>What Makes Us Affordable?</strong></p>
+<ul>
+<li><strong>No shop rent:</strong> We don't have expensive bazaar shops, so we pass savings to you</li>
+<li><strong>Transparent pricing:</strong> You know exactly what you'll pay — no last-minute charges</li>
+<li><strong>One visit fee:</strong> Rs. 200 covers both measurement AND delivery</li>
+<li><strong>No advance payment:</strong> Pay cash on delivery for your first order</li>
+</ul>
+<p><strong>Cheap ≠ Low Quality:</strong></p>
+<p>Affordable doesn't mean compromising on stitching quality. We use experienced tailors, quality thread, and professional finishing. Every outfit is checked before delivery. If the fit isn't perfect, we offer one free alteration.</p>
+<p>Serving Saddar, Satellite Town, Commercial Market, Bahria Town, DHA Rawalpindi, Gulraiz, Chaklala, and all Rawalpindi areas.</p>
+${WA_CTA}`,
+  },
+  {
+    slug: "eid-shalwar-kameez-stitching-guide",
+    title: "Eid Shalwar Kameez Stitching Guide — Rawalpindi & Islamabad",
+    excerpt:
+      "Complete guide to getting your Eid shalwar kameez stitched on time in Rawalpindi and Islamabad. Booking tips, timeline, and rush options.",
+    date: "2026-06-30",
+    keyword: "Eid shalwar kameez tailor Rawalpindi",
+    content: `<p>Eid is Pakistan's biggest clothing occasion — and tailors fill up fast. Here's your complete guide to ensuring your Eid shalwar kameez is stitched perfectly and delivered on time in Rawalpindi and Islamabad.</p>
+<p><strong>Eid Stitching Timeline:</strong></p>
+<ul>
+<li><strong>3-4 weeks before Eid:</strong> Ideal booking time — all styles and fabrics available</li>
+<li><strong>2 weeks before:</strong> Still good, but avoid complex embroidery</li>
+<li><strong>1 week before:</strong> Rush orders only — simple designs work best</li>
+<li><strong>Less than 1 week:</strong> Contact us immediately for emergency rush handling</li>
+</ul>
+<p><strong>Eid Stitching Checklist:</strong></p>
+<ol>
+<li><strong>Buy fabric early:</strong> Popular lawn and silk sells out</li>
+<li><strong>Choose design:</strong> Bring reference photos or Pinterest inspiration</li>
+<li><strong>Book measurement:</strong> Schedule your home visit ASAP</li>
+<li><strong>Confirm delivery date:</strong> Make sure you'll receive it 2-3 days before Eid</li>
+<li><strong>Plan for alterations:</strong> Allow time for a fitting adjustment if needed</li>
+</ol>
+<p><strong>Popular Eid Styles 2026:</strong></p>
+<ul>
+<li>Embroidered neck and daaman (hem) — classic & festive</li>
+<li>Silk shalwar kameez with subtle embellishments</li>
+<li>Printed lawn with lace detailing</li>
+<li>Matching family outfits (we can do multiple family members in one visit!)</li>
+</ul>
+<p><strong>DarziDoor Eid Service:</strong> We serve all areas of Rawalpindi and Islamabad including Saddar, Blue Area, Bahria Town, DHA, F-sectors, and G-sectors. Book early for guaranteed Eid delivery. Rush stitching available for last-minute orders.</p>
+${WA_CTA}`,
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {

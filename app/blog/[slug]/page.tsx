@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getAllSlugs } from "@/lib/posts";
+import { getArticleSchema } from "@/lib/schema";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -16,8 +17,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
   return {
-    title: `${post.title} | DarziDoor`,
+    title: `${post.title} | DarziDoor Blog`,
     description: post.excerpt,
+    keywords: [post.keyword, "shalwar kameez", "tailor islamabad", "custom stitching"],
+    authors: [{ name: "DarziDoor" }],
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: "article",
+      publishedTime: post.date,
+      authors: ["DarziDoor"],
+      url: `https://darzi-door.vercel.app/blog/${params.slug}`,
+      images: [
+        {
+          url: "https://darzi-door.vercel.app/darzi-door.png",
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    alternates: {
+      canonical: `https://darzi-door.vercel.app/blog/${params.slug}`,
+    },
   };
 }
 
@@ -25,8 +47,16 @@ export default function BlogPost({ params }: Props) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
+  const articleSchema = getArticleSchema(post);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema),
+        }}
+      />
       <Navbar />
       <main className="bg-bg min-h-screen py-16 px-6">
         <article className="max-w-2xl mx-auto">

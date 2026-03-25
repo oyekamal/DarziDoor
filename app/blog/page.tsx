@@ -8,6 +8,22 @@ export const metadata: Metadata = {
   title: "Tailoring Tips & Guides | DarziDoor Blog",
   description:
     "Expert advice on shalwar kameez stitching, fabric guides, and tailoring tips for Islamabad & Rawalpindi.",
+  keywords: [
+    "tailoring tips",
+    "shalwar kameez guide",
+    "fabric guide islamabad",
+    "stitching advice",
+    "tailor guide pakistan",
+  ],
+  alternates: {
+    canonical: "https://darzi-door.vercel.app/blog",
+  },
+  openGraph: {
+    title: "DarziDoor Blog - Tailoring Tips & Guides",
+    description: "Expert advice on shalwar kameez stitching, fabric guides, and tailoring tips.",
+    url: "https://darzi-door.vercel.app/blog",
+    type: "website",
+  },
 };
 
 export default function BlogIndex() {

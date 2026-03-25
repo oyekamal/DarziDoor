@@ -21,19 +21,20 @@ export default function Hero() {
 
       <div className="relative z-10 text-center max-w-3xl mx-auto">
         <h1 className="font-playfair text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-2">
-          Custom Shalwar Kameez —<br className="hidden md:block" />
-          Stitched at Home, Delivered to Your Door
+          Best Shalwar Kameez Tailor in Islamabad & Rawalpindi —<br className="hidden md:block" />
+          Custom Stitching at Home
         </h1>
         <p className="font-urdu text-gold text-2xl md:text-3xl leading-loose mb-6" dir="rtl" lang="ur">
-          کسٹم شلوار قمیض — گھر پر سلائی، آپ کے دروازے تک
+          اسلام آباد و راولپنڈی میں بہترین شلوار قمیض درزی — گھر پر سلائی
         </p>
 
         <p className="text-white/80 text-lg md:text-xl mb-2 font-inter">
-          Serving Islamabad &amp; Rawalpindi &nbsp;|&nbsp; Men &amp; Women
-          &nbsp;|&nbsp; Rs. 200 Measurement &amp; Delivery
+          Top-Rated Home Tailoring Service • Saddar • Blue Area • Bahria Town • All Areas
+          <br />
+          Ladies & Gents Specialist • Fast Stitching • Rs. 200 Visit Fee
         </p>
         <p className="font-urdu text-white/60 text-lg leading-loose mb-10" dir="rtl" lang="ur">
-          اسلام آباد و راولپنڈی &nbsp;|&nbsp; مرد و خواتین &nbsp;|&nbsp; ۲۰۰ روپے پیمائش و ڈیلیوری
+          گھر پر درزی سروس &nbsp;•&nbsp; تمام علاقے &nbsp;•&nbsp; خواتین و حضرات &nbsp;•&nbsp; تیز سلائی
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

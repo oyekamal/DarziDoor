@@ -1,5 +1,5 @@
 const shareText = encodeURIComponent(
-  "Get your shalwar kameez stitched at home! DarziDoor visits, measures & delivers in Islamabad & Rawalpindi. Use my referral for Rs. 200 off: https://darzidoor.com"
+  "Get your shalwar kameez stitched at home! DarziDoor visits, measures & delivers in Islamabad & Rawalpindi. Use my referral for Rs. 200 off: https://darzi-door.vercel.app"
 );
 const shareLink = `https://wa.me/?text=${shareText}`;
 

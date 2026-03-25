@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p>
-              DarziDoor (&ldquo;we&rdquo;, &ldquo;us&rdquo;) operates the website darzidoor.com. This page
+              DarziDoor (&ldquo;we&rdquo;, &ldquo;us&rdquo;) operates the website darzi-door.vercel.app. This page
               explains how we collect and use information when you visit our site.
             </p>
 
