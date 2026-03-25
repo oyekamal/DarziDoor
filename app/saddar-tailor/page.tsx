@@ -84,7 +84,7 @@ export default function SaddarTailorPage() {
               </h2>
               
               <p className="font-inter text-text-primary text-base leading-relaxed mb-6">
-                Shopping in Saddar's bustling markets is exciting — but finding time to visit a tailor and wait for fittings? Not so much. DarziDoor brings Saddar's quality tailoring directly to your home. Whether you're in Commercial Market, Committee Chowk, or anywhere in Saddar, we visit you, take measurements, and deliver your perfectly stitched shalwar kameez in 5–7 days (rush orders in 2–3 days).
+                Shopping in Saddar&apos;s bustling markets is exciting — but finding time to visit a tailor and wait for fittings? Not so much. DarziDoor brings Saddar&apos;s quality tailoring directly to your home. Whether you&apos;re in Commercial Market, Committee Chowk, or anywhere in Saddar, we visit you, take measurements, and deliver your perfectly stitched shalwar kameez in 5–7 days (rush orders in 2–3 days).
               </p>
 
               <div className="bg-gold/10 border-l-4 border-gold p-6 rounded mb-8">

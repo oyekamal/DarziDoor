@@ -84,7 +84,7 @@ export default function BlueAreaTailorPage() {
               </h2>
               
               <p className="font-inter text-text-primary text-base leading-relaxed mb-6">
-                Working in Blue Area's corporate offices and government buildings? Finding time for tailor visits during work hours is nearly impossible. DarziDoor solves this — we visit your office or home in Blue Area, take professional measurements, and deliver your custom-stitched shalwar kameez directly to you. Perfect for busy professionals who value quality and convenience.
+                Working in Blue Area&apos;s corporate offices and government buildings? Finding time for tailor visits during work hours is nearly impossible. DarziDoor solves this — we visit your office or home in Blue Area, take professional measurements, and deliver your custom-stitched shalwar kameez directly to you. Perfect for busy professionals who value quality and convenience.
               </p>
 
               <div className="bg-gold/10 border-l-4 border-gold p-6 rounded mb-8">
@@ -238,11 +238,11 @@ export default function BlueAreaTailorPage() {
                 </div>
                 <div>
                   <h4 className="font-inter font-semibold text-green mb-2">What about fabric — can you source it?</h4>
-                  <p className="font-inter text-text-muted text-sm">Yes! Bring your own fabric or we can arrange quality fabric at market rates. We'll guide you on what works best for office wear.</p>
+                  <p className="font-inter text-text-muted text-sm">Yes! Bring your own fabric or we can arrange quality fabric at market rates. We&apos;ll guide you on what works best for office wear.</p>
                 </div>
                 <div>
                   <h4 className="font-inter font-semibold text-green mb-2">Do you have a female tailor for ladies?</h4>
-                  <p className="font-inter text-text-muted text-sm">Yes, female tailor available for ladies' measurements. Just mention your preference when booking.</p>
+                  <p className="font-inter text-text-muted text-sm">Yes, female tailor available for ladies&apos; measurements. Just mention your preference when booking.</p>
                 </div>
               </div>
 

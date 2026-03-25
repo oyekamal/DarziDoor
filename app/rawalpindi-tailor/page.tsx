@@ -86,7 +86,7 @@ export default function RawalpindiTailorPage() {
               </h2>
               
               <p className="font-inter text-text-primary text-base leading-relaxed mb-6">
-                Finding a reliable tailor in Rawalpindi used to mean navigating Saddar's crowded markets or waiting hours at Raja Bazaar. Not anymore. DarziDoor brings expert tailoring to your doorstep anywhere in Rawalpindi — we visit your home, take precise measurements, stitch your outfit, and deliver it in 5–7 days.
+                Finding a reliable tailor in Rawalpindi used to mean navigating Saddar&apos;s crowded markets or waiting hours at Raja Bazaar. Not anymore. DarziDoor brings expert tailoring to your doorstep anywhere in Rawalpindi — we visit your home, take precise measurements, stitch your outfit, and deliver it in 5–7 days.
               </p>
 
               <h3 className="font-playfair text-green text-2xl font-semibold mb-4 mt-8">
@@ -183,7 +183,7 @@ export default function RawalpindiTailorPage() {
                     ✓ Free Alteration Guarantee
                   </h4>
                   <p className="font-inter text-text-muted text-sm">
-                    If the fit isn't perfect, we fix it at no extra cost. Your satisfaction guaranteed.
+                    If the fit isn&apos;t perfect, we fix it at no extra cost. Your satisfaction guaranteed.
                   </p>
                 </div>
               </div>
@@ -222,13 +222,13 @@ export default function RawalpindiTailorPage() {
               <div className="space-y-4 mb-8">
                 <div className="bg-surface p-6 rounded-lg">
                   <p className="font-inter text-text-primary italic mb-3">
-                    "Finally, a tailor that comes to Bahria Town Rawalpindi! The stitching quality is excellent and the home service is so convenient."
+                    &ldquo;Finally, a tailor that comes to Bahria Town Rawalpindi! The stitching quality is excellent and the home service is so convenient.&rdquo;
                   </p>
                   <p className="font-inter text-text-muted text-sm">— Ayesha R., Bahria Town Rawalpindi</p>
                 </div>
                 <div className="bg-surface p-6 rounded-lg">
                   <p className="font-inter text-text-primary italic mb-3">
-                    "I live in Saddar and always struggled finding time to visit tailors. DarziDoor made it so easy — they came to me!"
+                    &ldquo;I live in Saddar and always struggled finding time to visit tailors. DarziDoor made it so easy — they came to me!&rdquo;
                   </p>
                   <p className="font-inter text-text-muted text-sm">— Ahmed M., Saddar Rawalpindi</p>
                 </div>

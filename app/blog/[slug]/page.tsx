@@ -51,6 +51,7 @@ export default function BlogPost({ params }: Props) {
 
   return (
     <>
+      {/* eslint-disable-next-line react/no-danger */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -68,6 +69,7 @@ export default function BlogPost({ params }: Props) {
             {post.excerpt}
           </p>
 
+          {/* eslint-disable-next-line react/no-danger */}
           <div
             className="font-inter text-text-primary text-base leading-relaxed"
             dangerouslySetInnerHTML={{ __html: post.content }}
